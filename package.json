@@ -1,0 +1,15 @@
+{
+  "name": "custom-logger-express",
+  "version": "1.1.2",
+  "description": "Custom Logger to flush your logs to console, files and to cloud",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "custom-logger",
+    "exppress-logger"
+  ],
+  "author": "Junaid",
+  "license": "ISC"
+}
