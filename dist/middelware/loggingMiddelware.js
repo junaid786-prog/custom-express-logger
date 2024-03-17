@@ -11,6 +11,4 @@ const loggingMiddleware = (config) => {
     }
 }
 
-module.exports = {
-    loggingMiddleware,
-}
+module.exports = loggingMiddleware;

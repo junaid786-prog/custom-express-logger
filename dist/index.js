@@ -1,6 +1,6 @@
 const LOG = require('./logger/logger');
-const middleware = require('./middleware');
-
+const middleware = require('./middelware/index')
 
 // default export the middleware
-module.exports = middleware;
+exports = module.exports = middleware;
+exports.LOG = LOG;
